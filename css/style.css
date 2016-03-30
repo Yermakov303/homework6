@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.site{
+width: 910px;
+height: 1310px;
+margin: 0 auto;
+background-color: white;
+}
+.contacts{
+    font:18px Arial;
+    margin: 8px 0px 10px 7px;
+    float: left;
+    color: gray;
+}
+.contacts img{
+    float: left;
+}
+.contacts span{
+    display: inline-block;
+    padding: 10px 0px 0px 5px;
+}
+
+.login{
+    float: right;
+    width: 494px;
+    height: 26px;
+    margin: 13px 18px 0px 10px;
+    background: #1a5879;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.login img{
+    float: left;
+    padding: 6px 1px 1px 7px;
+    
+}
+.login input{
+    margin-top: 3px;
+    margin-left: 4px;
+    width: 110px;    
+}
+
+header input[type="submit"]{
+    cursor: pointer;
+    color: white;
+    width: 30px;
+    height: 13px;
+    padding-right: 5px;
+    border: none;
+    border-right: 1px solid white;
+    background: #1a5879;
+    font: 12px Arial white;
+}
+.login a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+#forgot{
+    text-decoration: underline;
+    color: #afb2b5;
+    margin-left: 20px;
+}
+.nav{
+    float: right;
+    height: 20px;
+    width: 66px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid grey;
+    background: white;
+    padding: 0px 4px 0px 4px;
+    margin: 15px 8px 0px 0px;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+   }
+#header{
+margin: 0px auto;
+display:block;
+}
+
+.menu{
+  	background-color: #191b1e;
+    width: 909px;
+    height: 30px; 
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+ ul.navigation {
+    padding-left: 85px;
+    margin: 7px auto;
+    list-style: none;
+}
+ul.navigation  >li {
+   padding-top: 3px;
+   padding-left: 5px;
+    float: left;
+	list-style: none;
+	position: relative;
+}
+
+ul.navigation >li>a {
+    padding: 5px 15px;
+  	color: white;
+	display: block;
+	text-decoration: none;
+    font-size: 13px;
+}
+
+ul.navigation >li>a:hover{
+     padding: 5px 15px;
+    cursor: pointer;
+    background: #124569;
+    border-radius: 15px;
+    text-align: center;
+}
+
+ul.cart{
+      float: right;
+    margin-top: 2px;
+    margin-right: 28px;
+    list-style: none;
+        font-size: 13px;
+}
+ul.cart>li {
+    color: grey;
+   padding-top: 5px;
+   padding-left: 5px;
+    float: left;
+	list-style: none;
+	position: relative;
+}
+#summ{
+    color: #0e5789;
+}
+
+.fon {
+width: 100%;
+overflow: hidden;
+}
+
+.leftColumn {
+ width: 21%;
+ float: left;    
+ text-align: center;
+ padding-bottom: 20000px;
+ margin-bottom: -20000px;
+  }
+.tires_top{
+    color: #114165;
+    padding: 7px 29px 8px 0px;
+    text-align: right;
+    margin: 18px 0px 12px 0px;
+    background: url(../img/ico.png);
+    background-repeat: no-repeat;
+    font: 12px arial;
+ }
+.tires{
+    color: #206988;
+    padding: 8px 75px 8px 0px;
+    text-align: center;
+    background: url(../img/ul.png);
+    background-repeat: no-repeat;
+    font-size: 14px;
+}
+.left_menu{
+    padding: 0px 32px;
+    list-style-image: url(../img/liststyle.png);
+}
+.left_menu li{
+    padding: 5px 5px;
+}
+
+.left_menu a{
+    color: #465961;
+}
+.left_menu a:hover{
+    font-weight: bold;
+    font-style: italic;
+    color: #0c3256;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.centerColumn {
+ margin-top: 19px;
+ width: 58%;
+ height: 627px;
+ float: left;
+ padding-bottom: 20000px;
+ margin-bottom: -20000px;
+ text-align: center;
+ background: linear-gradient(180deg, #e5e7e8, #93a7b0);
+  }
+
+.shop{
+    margin-top: 10px;
+    position: relative;
+    left: 5px;
+    top: -6px;
+    float: left;
+    width: 33%;
+    list-style: none;
+}
+.centerColumn span{
+    display: block;
+    color: #206988;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    top: 9px;
+    left: -3px;
+}
+.name{
+    font-size: 14px;
+    margin-right: 3px;
+    margin-top: 6px;
+}
+.price{
+    margin: -4px 1px 11px 14px;
+    font-weight: bold;
+    color: #206988;
+    font-size: 18px;
+    font-style: italic;
+}
+#balance{
+    margin: 8px -6px 0px -6px;
+}
+.rightColumn {
+text-align: center;
+width: 20%;
+float: right;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+} 
+
+.checkbox{
+    color:#213a4d;
+    padding-right: 65px;
+    margin: 10px 1px;
+    font-size: 14px;
+}
+.checkbox span{
+    background-image: url(../img/check.png);
+     box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.checkbox input, label{
+    cursor: pointer;
+}
+.submit{
+    font-size: 12px;
+    cursor: pointer;
+    border: 1px solid #175173;
+    border-radius: 10px;
+    background: #1c5e7e;
+    color: white;
+    padding: 4px 11px;
+    margin-right: 53px;
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.brand{
+     margin: 13px auto;
+}
+.brand ul{
+    margin: 20px 0px 10px 100px;
+    display: inline-block;
+     list-style: none;
+}
+.brand li{
+    padding: 0px 10px;
+    float: left;
+    }
+.brand a{
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    padding: 0px 5px 0px 10px;
+	text-decoration: none;
+    color: white;
+    border-right: 1px solid white;
+}
+.brand a:hover{
+    cursor: pointer;
+    color: #52abcb;
+}
+
+footer{
+    margin: 0 auto;
+    background: #213a4d;
+    width: 910px;
+    height: 100px;
+    
+}
+footer ul{
+    margin: 10px 0px 0px 300px;
+    text-align: center;
+    display: inline-block;
+     list-style: none;
+}
+footer li{
+    float: left;
+    }
+footer a{
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    padding: 0px 5px 0px 10px;
+	text-decoration: none;
+    color: white;
+    border-right: 1px solid white;
+}
+footer a:hover{
+    cursor: pointer;
+    color: #52abcb;
+}
+
+.copy{
+    margin-top: 10px;
+    font-size: 10px;
+    color: orange;
+    text-align: center;
+}
+
+#tires_right{
+    margin: 16px 0px 12px -1px;
+    color: #114165;
+    padding: 6px 61px 7px 0px;
+    text-align: center;
+    background: url(../img/ico.png);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    }
