@@ -59,6 +59,14 @@ header input[type="submit"]{
     background: #1a5879;
     font: 12px Arial white;
 }
+.nav input[type="submit"]{
+    cursor: pointer;
+    width: 13px;
+    height: 10px;
+    border: none;
+    background: none;
+    
+}
 .login a{
     color: white;
     text-decoration: none;
@@ -201,6 +209,11 @@ overflow: hidden;
  background: linear-gradient(180deg, #e5e7e8, #93a7b0);
   }
 
+.grow:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 .shop{
     margin-top: 10px;
     position: relative;
@@ -209,6 +222,250 @@ overflow: hidden;
     float: left;
     width: 33%;
     list-style: none;
+}
+.section_forms {
+  height: 134px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: -3px;
+}
+
+
+.search_by_car,
+.search_tire,
+.search_disk {
+  height: 134px;
+  border-radius: 17px;
+  border: 1px solid #B0B0B1;
+  box-shadow: 2px 3px 5px -1px rgba(176,176,177,1);
+  display: inline-block;
+  float: left;
+  margin-top: 10px;
+}
+
+.form_head {
+  color: #154467;
+  font: 10px "Arial Black", sans-serif;
+  margin-left: 15px;
+}
+
+.form_head .by_car {
+  font-size: 12px;
+  margin-left: 70px;
+  margin-right: 75px;
+}
+
+.search_by_car {
+  width: 413px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+.search_by_car_right {
+  float: right;
+  margin-right: 15px;
+  margin-top: 3px;
+}
+
+.search_by_car_left {
+  float: left;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+
+.search_tire_div {
+  margin-top: 3px;
+  margin-left: 15px;
+}
+
+.search_tire_div label {
+  display: inline-block;
+  width: 40px;
+}
+
+.search_tire_div input [type=checkbox] {
+  float: left;
+
+}
+
+.search_by_car_left label,
+.search_by_car_right label {
+  display: inline-block;
+  width: 73px;
+}
+
+.search_by_car label,
+.search_tire label {
+  font: 10px Arial, sans-serif;
+  color: #000;
+}
+
+.search_disk label {
+  font: 10px "Lucida Sans Unicode", sans-serif;
+  width: 87px;
+  display: inline-block;
+  line-height: 1;
+}
+
+.search_by_car label span {
+  color: #77858b;
+}
+
+.search_disk label span {
+  color: #77858b;
+  font-size: 9px;
+}
+
+.search_by_car select {
+  width: 100px;
+  border: 2px inset #a9a9a9;
+  border-bottom: none;
+
+}
+
+.search_tire select {
+  border: 2px inset #a9a9a9;
+  border-bottom: none;
+}
+
+.search_disk select {
+  border: 2px inset #a9a9a9;
+  border-bottom: none;
+}
+
+#year_production,
+#year_production1 {
+  width: 57px;
+  vertical-align: top;
+  margin-top: 1px;
+}
+
+option {
+  font: 10px Arial, sans-serif;
+}
+
+.search_tire {
+  width: 192px;
+  border: 1px solid #B0B0B1;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.search_tire .left,
+.search_disk .left {
+  font-size: 12px;
+  margin-left: -5px;
+  display: inline-block;
+  width: 105px;
+  margin-right: 0;
+}
+
+.form_head {
+  display: inline-block;
+  margin-right: 0;
+}
+
+
+.search_button {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.search_button a {
+  font: italic 14px Arial, sans-serif;
+  color: #154467;
+  line-height: 2;
+}
+
+.search_button a {
+  line-height: 1;
+}
+.search_disk .search_button a {
+  margin-top: 5px;
+  line-height: 2;
+}
+
+.search_by_car .search_button a {
+  line-height: 2;
+}
+
+#size1,
+#size2 {
+  width: 51px;
+}
+
+#radius {
+  width: 43px;
+  vertical-align: top;
+  margin-top: 1px;
+}
+
+.right_R {
+  text-align: right;
+}
+
+#winter,
+#both {
+  margin-left: 44px;
+  margin-top: 0;
+}
+
+
+.search_disk {
+  width: 267px;
+  border: 1px solid #B0B0B1;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.search_disk_right {
+  float: right;
+  margin-right: 5px;
+  margin-top: -12px;
+  margin-left: 3px;
+}
+
+.search_disk_right label {
+  display: block;
+}
+
+.search_disk_left {
+  float: left;
+  margin-left: 15px;
+  margin-top: 2px;
+  padding-right: 6px;
+  border-right: 1px solid #BDC6CA;
+}
+
+.search_disk_left label {
+  display: inline-block;
+  width: 84px;
+}
+
+.search_disk_left select {
+  margin-left: -5px;
+}
+
+
+#disk_diameter {
+  width: 57px;
+}
+
+#number_hole {
+  width: 49px;
+}
+#hole_diameter {
+  margin-top: 10px;
+  width: 57px;
+}
+
+.form_head .disk {
+  display: inline-block;
+  margin-right: 10px;
+  width: 110px;
 }
 .centerColumn span{
     display: block;
